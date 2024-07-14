@@ -69,7 +69,6 @@ const images = [
 ];
 
 const galleryList = document.querySelector('.gallery');
-console.log(galleryList);
 
 function imagesMarkup(images) {
   return images
