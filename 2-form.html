@@ -4,12 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page 3</title>
+    <title>Form</title>
+    
+    <script type="module" crossorigin src="/goit-js-hw-09/assets/styles-2ea471a6.js"></script>
+    <script type="module" crossorigin src="/goit-js-hw-09/assets/2-form-83f385ba.js"></script>
+    <link rel="stylesheet" href="/goit-js-hw-09/assets/styles-db47dc2f.css">
   </head>
   <body>
     <section>
       <a href="./index.html">Go to home</a>
-      <h1>Welcome to page 3</h1>
+      <form class="feedback-form" autocomplete="off">
+        <label class="form-label">
+          Email
+          <input class="form-email" type="email" name="email" autofocus />
+        </label>
+        <label class="form-label">
+          Message
+          <textarea class="form-message" name="message" rows="8"></textarea>
+        </label>
+        <button class="form-btn" type="submit">Submit</button>
+      </form>
     </section>
+    
   </body>
 </html>
